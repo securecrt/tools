@@ -1,0 +1,58 @@
+---find_start_end()---
+663+1 records in
+663+1 records out
+5067848 bytes (5.1 MB) copied, 0.00260648 s, 1.9 GB/s
+unlzma: /tmp/krepack.Ri5f/kernel.image.lzma: Compressed data is corrupt
+76+1 records in
+76+1 records out
+15435552 bytes (15 MB) copied, 0.00753923 s, 2.0 GB/s
+1+1 records in
+1+1 records out
+9498640 bytes (9.5 MB) copied, 0.00557306 s, 1.7 GB/s
+---CHECK_MMC_CAP_ERASE()---
+11150 blocks
+---makeImage()---
+1+0 records in
+1+0 records out
+202052 bytes (202 kB) copied, 0.000237181 s, 852 MB/s
+1+1 records in
+1+1 records out
+9498400 bytes (9.5 MB) copied, 0.00697799 s, 1.4 GB/s
+1+0 records in
+1+0 records out
+---size_append()---
+/home/gustavo/toolchain/bin/arm-linux-androideabi-ld: error: arch/arm/boot/compressed/piggy.lzma.o: unknown CPU architecture
+/home/gustavo/toolchain/bin/arm-linux-androideabi-ld: error: arch/arm/boot/compressed/lib1funcs.o: unknown CPU architecture
+/home/gustavo/toolchain/bin/arm-linux-androideabi-objcopy: 'arch/arm/boot/compressed/vmlinux': No such file
+stat: cannot stat ‘arch/arm/boot/zImage’: No such file or directory
+---MAKE_FIPS_BINARY()---
+arch/arm/boot/zImage: No such file or directory
+cat: arch/arm/boot/zImage: No such file or directory
+---mkpayload()---
+tar: *: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+tar: *: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+---mkbootoffset()---
+---count512()---
+---append512()---
+0+0 records in
+0+0 records out
+0 bytes (0 B) copied, 4.8051e-05 s, 0.0 kB/s
+---count512()---
+---count512()---
+---append512()---
+0+1 records in
+1+0 records out
+512 bytes (512 B) copied, 0.000125715 s, 4.1 MB/s
+---append512()---
+0+1 records in
+1+0 records out
+512 bytes (512 B) copied, 8.6883e-05 s, 5.9 MB/s
+---append512()---
+0+1 records in
+1+0 records out
+512 bytes (512 B) copied, 9.1632e-05 s, 5.6 MB/s
+0+1 records in
+1+0 records out
+8388608 bytes (8.4 MB) copied, 0.0070484 s, 1.2 GB/s
